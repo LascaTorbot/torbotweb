@@ -128,3 +128,5 @@ STATICFILES_DIRS = [
     os.path.join(MASTER_PATH_DIR, 'static'),
 ]
 STATIC_ROOT = '/home/esdrasbrz/Projects/ic/torbotweb/static'
+
+FILES_PATH = os.path.join(MASTER_PATH_DIR, 'files')
