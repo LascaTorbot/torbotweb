@@ -25,7 +25,7 @@ SECRET_KEY = 'dhm*lpd_6c+siof!ep(8!*t+@s*g*uv&gg#m-jolqp^382=#o_'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['*']
 
 
 # Application definition
@@ -130,3 +130,4 @@ STATICFILES_DIRS = [
 STATIC_ROOT = '/home/esdrasbrz/Projects/ic/torbotweb/static'
 
 FILES_PATH = os.path.join(MASTER_PATH_DIR, 'files')
+AQUARI_URL = 'http://10.1.1.237:5050/'

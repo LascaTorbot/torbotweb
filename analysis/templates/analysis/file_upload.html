@@ -5,6 +5,10 @@
 {% block content %}
     <form action="{% url 'analysis:submit_files' %}" method="post" enctype="multipart/form-data" role="form">
         {% csrf_token %}
+        <label for="email">Email</label>
+        <input type="email" class="form-control" name="email" id="email">
+
+        
         <label for="files">Choose files...</label>
         <input type="file" class="form-control" name="files" id="files" multiple>
 
